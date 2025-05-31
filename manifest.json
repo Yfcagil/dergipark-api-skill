@@ -1,0 +1,17 @@
+{
+  "name": "Dergipark API Skill",
+  "description": "Akademik makaleleri Dergipark üzerinden sorgular.",
+  "type": "http",
+  "url": "http://localhost:8000",
+  "methods": [
+    {
+      "name": "get_articles",
+      "description": "Verilen dergi ismine göre makaleleri getirir.",
+      "path": "/articles",
+      "method": "GET",
+      "params": {
+        "journal": "string"
+      }
+    }
+  ]
+}
